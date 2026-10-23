@@ -1,0 +1,544 @@
+[
+ {
+  "fault": "F1",
+  "description": "reservation never clamped against the train ahead",
+  "reference": {
+   "config": "F1/reference",
+   "trains": [
+    "t1",
+    "t2"
+   ],
+   "reps": 5,
+   "safe_run": {
+    "time": 0.037,
+    "maxrss_kb": 4812,
+    "states": 1,
+    "runs": 0,
+    "cuts": 4,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.036,
+    "time_max": 0.038
+   },
+   "reach_hazard": {
+    "time": 0.036,
+    "maxrss_kb": 4728,
+    "states": 1,
+    "runs": 0,
+    "cuts": 1,
+    "horizon": 0,
+    "verdict": "found",
+    "rows": 2,
+    "time_min": 0.036,
+    "time_max": 0.041
+   },
+   "reach_accident": {
+    "time": 0.036,
+    "maxrss_kb": 4740,
+    "states": 1,
+    "runs": 0,
+    "cuts": 4,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.034,
+    "time_max": 0.037
+   }
+  },
+  "dense": {
+   "config": "F1/dense",
+   "trains": [
+    "t1",
+    "t2",
+    "t3",
+    "t4"
+   ],
+   "reps": 5,
+   "safe_run": {
+    "time": 0.036,
+    "maxrss_kb": 4584,
+    "states": 1,
+    "runs": 0,
+    "cuts": 16,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.036,
+    "time_max": 0.039
+   },
+   "reach_hazard": {
+    "time": 0.036,
+    "maxrss_kb": 4852,
+    "states": 1,
+    "runs": 0,
+    "cuts": 1,
+    "horizon": 0,
+    "verdict": "found",
+    "rows": 4,
+    "time_min": 0.035,
+    "time_max": 0.037
+   },
+   "reach_accident": {
+    "time": 0.037,
+    "maxrss_kb": 4820,
+    "states": 1,
+    "runs": 0,
+    "cuts": 16,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.036,
+    "time_max": 0.038
+   }
+  }
+ },
+ {
+  "fault": "F2",
+  "description": "reserved extent ignores the speed term",
+  "reference": {
+   "config": "F2/reference",
+   "trains": [
+    "t1",
+    "t2"
+   ],
+   "reps": 5,
+   "safe_run": {
+    "time": 0.037,
+    "maxrss_kb": 4588,
+    "states": 12,
+    "runs": 1,
+    "cuts": 0,
+    "horizon": 0,
+    "verdict": "found",
+    "rows": 9,
+    "time_min": 0.036,
+    "time_max": 0.038
+   },
+   "reach_hazard": {
+    "time": 0.076,
+    "maxrss_kb": 4856,
+    "states": 5478,
+    "runs": 0,
+    "cuts": 0,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.074,
+    "time_max": 0.078
+   },
+   "reach_accident": {
+    "time": 0.078,
+    "maxrss_kb": 4984,
+    "states": 5478,
+    "runs": 0,
+    "cuts": 0,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.076,
+    "time_max": 0.086
+   }
+  },
+  "dense": {
+   "config": "F2/dense",
+   "trains": [
+    "t1",
+    "t2",
+    "t3",
+    "t4"
+   ],
+   "reps": 5,
+   "safe_run": {
+    "time": 0.037,
+    "maxrss_kb": 4812,
+    "states": 24,
+    "runs": 1,
+    "cuts": 0,
+    "horizon": 0,
+    "verdict": "found",
+    "rows": 27,
+    "time_min": 0.036,
+    "time_max": 0.038
+   },
+   "reach_hazard": {
+    "time": 0.048,
+    "maxrss_kb": 4824,
+    "states": 721,
+    "runs": 0,
+    "cuts": 0,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.046,
+    "time_max": 0.048
+   },
+   "reach_accident": {
+    "time": 0.047,
+    "maxrss_kb": 4992,
+    "states": 721,
+    "runs": 0,
+    "cuts": 0,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.047,
+    "time_max": 0.049
+   }
+  }
+ },
+ {
+  "fault": "F3",
+  "description": "MA checked over one march step, not the report period",
+  "reference": {
+   "config": "F3/reference",
+   "trains": [
+    "t1",
+    "t2"
+   ],
+   "reps": 5,
+   "safe_run": {
+    "time": 0.036,
+    "maxrss_kb": 4848,
+    "states": 12,
+    "runs": 1,
+    "cuts": 0,
+    "horizon": 0,
+    "verdict": "found",
+    "rows": 9,
+    "time_min": 0.036,
+    "time_max": 0.037
+   },
+   "reach_hazard": {
+    "time": 0.079,
+    "maxrss_kb": 4868,
+    "states": 5707,
+    "runs": 0,
+    "cuts": 0,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.078,
+    "time_max": 0.082
+   },
+   "reach_accident": {
+    "time": 0.078,
+    "maxrss_kb": 4952,
+    "states": 5707,
+    "runs": 0,
+    "cuts": 0,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.078,
+    "time_max": 0.084
+   }
+  },
+  "dense": {
+   "config": "F3/dense",
+   "trains": [
+    "t1",
+    "t2",
+    "t3",
+    "t4"
+   ],
+   "reps": 5,
+   "safe_run": {
+    "time": 0.036,
+    "maxrss_kb": 4980,
+    "states": 24,
+    "runs": 1,
+    "cuts": 0,
+    "horizon": 0,
+    "verdict": "found",
+    "rows": 27,
+    "time_min": 0.035,
+    "time_max": 0.037
+   },
+   "reach_hazard": {
+    "time": 0.133,
+    "maxrss_kb": 4848,
+    "states": 10837,
+    "runs": 0,
+    "cuts": 9,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.12,
+    "time_max": 0.142
+   },
+   "reach_accident": {
+    "time": 0.054,
+    "maxrss_kb": 5084,
+    "states": 3144,
+    "runs": 0,
+    "cuts": 1,
+    "horizon": 0,
+    "verdict": "found",
+    "rows": 19,
+    "time_min": 0.052,
+    "time_max": 0.056
+   }
+  }
+ },
+ {
+  "fault": "F4",
+  "description": "board not removed at end of mission",
+  "reference": {
+   "config": "F4/reference",
+   "trains": [
+    "t1",
+    "t2"
+   ],
+   "reps": 5,
+   "safe_run": {
+    "time": 0.187,
+    "maxrss_kb": 4840,
+    "states": 35545,
+    "runs": 0,
+    "cuts": 261,
+    "horizon": 374,
+    "verdict": "unsat",
+    "time_min": 0.17,
+    "time_max": 0.214
+   },
+   "reach_hazard": {
+    "time": 0.172,
+    "maxrss_kb": 5084,
+    "states": 35545,
+    "runs": 0,
+    "cuts": 261,
+    "horizon": 374,
+    "verdict": "unsat",
+    "time_min": 0.169,
+    "time_max": 0.174
+   },
+   "reach_accident": {
+    "time": 0.02,
+    "maxrss_kb": 4840,
+    "states": 9,
+    "runs": 0,
+    "cuts": 1,
+    "horizon": 0,
+    "verdict": "found",
+    "rows": 10,
+    "time_min": 0.02,
+    "time_max": 0.024
+   }
+  },
+  "dense": {
+   "config": "F4/dense",
+   "trains": [
+    "t1",
+    "t2",
+    "t3",
+    "t4"
+   ],
+   "reps": 5,
+   "safe_run": {
+    "time": 0.134,
+    "maxrss_kb": 5704,
+    "states": 9569,
+    "runs": 0,
+    "cuts": 0,
+    "horizon": 32,
+    "verdict": "unsat",
+    "time_min": 0.132,
+    "time_max": 0.141
+   },
+   "reach_hazard": {
+    "time": 0.138,
+    "maxrss_kb": 5888,
+    "states": 9569,
+    "runs": 0,
+    "cuts": 0,
+    "horizon": 32,
+    "verdict": "unsat",
+    "time_min": 0.135,
+    "time_max": 0.139
+   },
+   "reach_accident": {
+    "time": 0.141,
+    "maxrss_kb": 5452,
+    "states": 9569,
+    "runs": 0,
+    "cuts": 0,
+    "horizon": 32,
+    "verdict": "unsat",
+    "time_min": 0.137,
+    "time_max": 0.152
+   }
+  }
+ },
+ {
+  "fault": "F5",
+  "description": "train ahead identified through the reserved area",
+  "reference": {
+   "config": "F5/reference",
+   "trains": [
+    "t1",
+    "t2"
+   ],
+   "reps": 5,
+   "safe_run": {
+    "time": 0.019,
+    "maxrss_kb": 4852,
+    "states": 18,
+    "runs": 1,
+    "cuts": 0,
+    "horizon": 0,
+    "verdict": "found",
+    "rows": 15,
+    "time_min": 0.018,
+    "time_max": 0.02
+   },
+   "reach_hazard": {
+    "time": 0.021,
+    "maxrss_kb": 4996,
+    "states": 179,
+    "runs": 0,
+    "cuts": 14,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.02,
+    "time_max": 0.022
+   },
+   "reach_accident": {
+    "time": 0.02,
+    "maxrss_kb": 4976,
+    "states": 82,
+    "runs": 0,
+    "cuts": 1,
+    "horizon": 0,
+    "verdict": "found",
+    "rows": 8,
+    "time_min": 0.019,
+    "time_max": 0.021
+   }
+  },
+  "dense": {
+   "config": "F5/dense",
+   "trains": [
+    "t1",
+    "t2",
+    "t3",
+    "t4"
+   ],
+   "reps": 5,
+   "safe_run": {
+    "time": 0.02,
+    "maxrss_kb": 4748,
+    "states": 22,
+    "runs": 1,
+    "cuts": 0,
+    "horizon": 0,
+    "verdict": "found",
+    "rows": 27,
+    "time_min": 0.019,
+    "time_max": 0.021
+   },
+   "reach_hazard": {
+    "time": 0.023,
+    "maxrss_kb": 4864,
+    "states": 169,
+    "runs": 0,
+    "cuts": 60,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.021,
+    "time_max": 0.035
+   },
+   "reach_accident": {
+    "time": 0.021,
+    "maxrss_kb": 4868,
+    "states": 135,
+    "runs": 0,
+    "cuts": 1,
+    "horizon": 0,
+    "verdict": "found",
+    "rows": 12,
+    "time_min": 0.02,
+    "time_max": 0.022
+   }
+  }
+ },
+ {
+  "fault": "F6",
+  "description": "reservation clamped to the front of the train ahead",
+  "reference": {
+   "config": "F6/reference",
+   "trains": [
+    "t1",
+    "t2"
+   ],
+   "reps": 5,
+   "safe_run": {
+    "time": 0.02,
+    "maxrss_kb": 4816,
+    "states": 1,
+    "runs": 0,
+    "cuts": 4,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.019,
+    "time_max": 0.027
+   },
+   "reach_hazard": {
+    "time": 0.022,
+    "maxrss_kb": 4956,
+    "states": 1,
+    "runs": 0,
+    "cuts": 1,
+    "horizon": 0,
+    "verdict": "found",
+    "rows": 2,
+    "time_min": 0.02,
+    "time_max": 0.022
+   },
+   "reach_accident": {
+    "time": 0.02,
+    "maxrss_kb": 4848,
+    "states": 1,
+    "runs": 0,
+    "cuts": 4,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.02,
+    "time_max": 0.02
+   }
+  },
+  "dense": {
+   "config": "F6/dense",
+   "trains": [
+    "t1",
+    "t2",
+    "t3",
+    "t4"
+   ],
+   "reps": 5,
+   "safe_run": {
+    "time": 0.021,
+    "maxrss_kb": 4868,
+    "states": 1,
+    "runs": 0,
+    "cuts": 16,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.019,
+    "time_max": 0.021
+   },
+   "reach_hazard": {
+    "time": 0.019,
+    "maxrss_kb": 4864,
+    "states": 1,
+    "runs": 0,
+    "cuts": 1,
+    "horizon": 0,
+    "verdict": "found",
+    "rows": 4,
+    "time_min": 0.018,
+    "time_max": 0.02
+   },
+   "reach_accident": {
+    "time": 0.02,
+    "maxrss_kb": 4864,
+    "states": 1,
+    "runs": 0,
+    "cuts": 16,
+    "horizon": 0,
+    "verdict": "unsat",
+    "time_min": 0.019,
+    "time_max": 0.021
+   }
+  }
+ }
+]

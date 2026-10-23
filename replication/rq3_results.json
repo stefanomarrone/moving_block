@@ -1,0 +1,349 @@
+[
+ {
+  "config": "track=16, 2 trains",
+  "trains": [
+   "t1",
+   "t2"
+  ],
+  "reps": 5,
+  "safe_run": {
+   "time": 0.038,
+   "maxrss_kb": 4808,
+   "states": 9,
+   "runs": 1,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "found",
+   "rows": 6,
+   "time_min": 0.036,
+   "time_max": 0.04
+  },
+  "reach_hazard": {
+   "time": 0.042,
+   "maxrss_kb": 4956,
+   "states": 576,
+   "runs": 0,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "unsat",
+   "time_min": 0.041,
+   "time_max": 0.043
+  },
+  "reach_accident": {
+   "time": 0.042,
+   "maxrss_kb": 4836,
+   "states": 576,
+   "runs": 0,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "unsat",
+   "time_min": 0.041,
+   "time_max": 0.042
+  },
+  "label": "track=16, 2 trains"
+ },
+ {
+  "config": "track=20, 2 trains",
+  "trains": [
+   "t1",
+   "t2"
+  ],
+  "reps": 5,
+  "safe_run": {
+   "time": 0.037,
+   "maxrss_kb": 4740,
+   "states": 12,
+   "runs": 1,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "found",
+   "rows": 9,
+   "time_min": 0.036,
+   "time_max": 0.038
+  },
+  "reach_hazard": {
+   "time": 0.079,
+   "maxrss_kb": 4840,
+   "states": 5478,
+   "runs": 0,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "unsat",
+   "time_min": 0.076,
+   "time_max": 0.081
+  },
+  "reach_accident": {
+   "time": 0.078,
+   "maxrss_kb": 4852,
+   "states": 5478,
+   "runs": 0,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "unsat",
+   "time_min": 0.077,
+   "time_max": 0.082
+  },
+  "label": "track=20, 2 trains"
+ },
+ {
+  "config": "track=24, 2 trains",
+  "trains": [
+   "t1",
+   "t2"
+  ],
+  "reps": 5,
+  "safe_run": {
+   "time": 0.037,
+   "maxrss_kb": 4692,
+   "states": 14,
+   "runs": 1,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "found",
+   "rows": 12,
+   "time_min": 0.036,
+   "time_max": 0.038
+  },
+  "reach_hazard": {
+   "time": 0.382,
+   "maxrss_kb": 4824,
+   "states": 47851,
+   "runs": 0,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "unsat",
+   "time_min": 0.378,
+   "time_max": 0.388
+  },
+  "reach_accident": {
+   "time": 0.383,
+   "maxrss_kb": 4968,
+   "states": 47851,
+   "runs": 0,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "unsat",
+   "time_min": 0.382,
+   "time_max": 0.388
+  },
+  "label": "track=24, 2 trains"
+ },
+ {
+  "config": "track=28, 2 trains",
+  "trains": [
+   "t1",
+   "t2"
+  ],
+  "reps": 5,
+  "safe_run": {
+   "time": 0.038,
+   "maxrss_kb": 4692,
+   "states": 17,
+   "runs": 1,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "found",
+   "rows": 14,
+   "time_min": 0.037,
+   "time_max": 0.039
+  },
+  "reach_hazard": {
+   "time": 1.553,
+   "maxrss_kb": 4820,
+   "states": 419296,
+   "runs": 0,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "unsat",
+   "time_min": 1.51,
+   "time_max": 2.672
+  },
+  "reach_accident": {
+   "time": 1.57,
+   "maxrss_kb": 4856,
+   "states": 419296,
+   "runs": 0,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "unsat",
+   "time_min": 1.546,
+   "time_max": 1.599
+  },
+  "label": "track=28, 2 trains"
+ },
+ {
+  "config": "dense, 2 trains",
+  "trains": [
+   "t1",
+   "t2"
+  ],
+  "reps": 5,
+  "safe_run": {
+   "time": 0.02,
+   "maxrss_kb": 4608,
+   "states": 18,
+   "runs": 1,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "found",
+   "rows": 13,
+   "time_min": 0.019,
+   "time_max": 0.022
+  },
+  "reach_hazard": {
+   "time": 0.024,
+   "maxrss_kb": 4852,
+   "states": 800,
+   "runs": 0,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "unsat",
+   "time_min": 0.023,
+   "time_max": 0.025
+  },
+  "reach_accident": {
+   "time": 0.023,
+   "maxrss_kb": 4868,
+   "states": 800,
+   "runs": 0,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "unsat",
+   "time_min": 0.022,
+   "time_max": 0.025
+  },
+  "label": "dense, 2 trains"
+ },
+ {
+  "config": "dense, 3 trains",
+  "trains": [
+   "t1",
+   "t2",
+   "t3"
+  ],
+  "reps": 5,
+  "safe_run": {
+   "time": 0.02,
+   "maxrss_kb": 4780,
+   "states": 21,
+   "runs": 1,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "found",
+   "rows": 20,
+   "time_min": 0.019,
+   "time_max": 0.021
+  },
+  "reach_hazard": {
+   "time": 0.025,
+   "maxrss_kb": 4868,
+   "states": 809,
+   "runs": 0,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "unsat",
+   "time_min": 0.024,
+   "time_max": 0.031
+  },
+  "reach_accident": {
+   "time": 0.028,
+   "maxrss_kb": 4964,
+   "states": 809,
+   "runs": 0,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "unsat",
+   "time_min": 0.025,
+   "time_max": 0.029
+  },
+  "label": "dense, 3 trains"
+ },
+ {
+  "config": "dense, 4 trains",
+  "trains": [
+   "t1",
+   "t2",
+   "t3",
+   "t4"
+  ],
+  "reps": 5,
+  "safe_run": {
+   "time": 0.02,
+   "maxrss_kb": 4840,
+   "states": 24,
+   "runs": 1,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "found",
+   "rows": 27,
+   "time_min": 0.02,
+   "time_max": 0.023
+  },
+  "reach_hazard": {
+   "time": 0.026,
+   "maxrss_kb": 4808,
+   "states": 721,
+   "runs": 0,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "unsat",
+   "time_min": 0.025,
+   "time_max": 0.028
+  },
+  "reach_accident": {
+   "time": 0.026,
+   "maxrss_kb": 4852,
+   "states": 721,
+   "runs": 0,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "unsat",
+   "time_min": 0.026,
+   "time_max": 0.027
+  },
+  "label": "dense, 4 trains"
+ },
+ {
+  "config": "3 speeds, 2 trains",
+  "trains": [
+   "t1",
+   "t2"
+  ],
+  "reps": 5,
+  "safe_run": {
+   "time": 0.02,
+   "maxrss_kb": 4936,
+   "states": 12,
+   "runs": 1,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "found",
+   "rows": 9,
+   "time_min": 0.019,
+   "time_max": 0.021
+  },
+  "reach_hazard": {
+   "time": 7.839,
+   "maxrss_kb": 4976,
+   "states": 2282151,
+   "runs": 0,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "unsat",
+   "time_min": 7.672,
+   "time_max": 7.93
+  },
+  "reach_accident": {
+   "time": 7.915,
+   "maxrss_kb": 4960,
+   "states": 2282151,
+   "runs": 0,
+   "cuts": 0,
+   "horizon": 0,
+   "verdict": "unsat",
+   "time_min": 7.797,
+   "time_max": 8.095
+  },
+  "label": "3 speeds, 2 trains"
+ }
+]

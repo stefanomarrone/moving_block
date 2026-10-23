@@ -1,0 +1,25 @@
+=== RQ1 ===
+reference, 2 trains    2 trains | safe: found (0.038s, 12 states) | hazard: unsat (0.08s, 5478 states) | accident: unsat (0.079s, 5478 states)
+short headway          2 trains | safe: found (0.038s, 18 states) | hazard: unsat (0.045s, 800 states) | accident: unsat (0.045s, 800 states)
+long TPR period        2 trains | safe: found (0.04s, 20 states) | hazard: unsat (0.041s, 169 states) | accident: unsat (0.042s, 169 states)
+small safety margin    2 trains | safe: found (0.038s, 12 states) | hazard: unsat (0.078s, 5478 states) | accident: unsat (0.082s, 5478 states)
+no safety margin       2 trains | safe: found (0.039s, 17 states) | hazard: unsat (0.075s, 3593 states) | accident: unsat (0.072s, 3593 states)
+long TPR, small margin 2 trains | safe: unsat (0.046s, 1189 states) | hazard: unsat (0.048s, 1189 states) | accident: unsat (0.047s, 1189 states)
+reference, 3 trains    3 trains | safe: found (0.04s, 12 states) | hazard: unsat (0.122s, 10955 states) | accident: unsat (0.119s, 10955 states)
+dense fleet, 4 trains  4 trains | safe: found (0.039s, 24 states) | hazard: unsat (0.05s, 721 states) | accident: unsat (0.052s, 721 states)
+=== RQ2 ===
+F1 reservation never clamped against the train ahead    reference: unsat/found/unsat | dense: unsat/found/unsat
+F2 reserved extent ignores the speed term               reference: found/unsat/unsat | dense: found/unsat/unsat
+F3 MA checked over one march step, not the report period reference: found/unsat/unsat | dense: found/unsat/found
+F4 board not removed at end of mission                  reference: unsat/unsat/found | dense: unsat/unsat/unsat
+F5 train ahead identified through the reserved area     reference: found/unsat/found | dense: found/unsat/found
+F6 reservation clamped to the front of the train ahead  reference: unsat/found/unsat | dense: unsat/found/unsat
+=== RQ3 ===
+track=16, 2 trains           safe=  0.02s | hazard=unsat     0.022s       576 states      5 MB
+track=20, 2 trains           safe= 0.021s | hazard=unsat      0.04s      5478 states      5 MB
+track=24, 2 trains           safe= 0.022s | hazard=unsat     0.217s     47851 states      5 MB
+track=28, 2 trains           safe= 0.022s | hazard=unsat      1.67s    419296 states      5 MB
+dense, 2 trains              safe= 0.022s | hazard=unsat     0.024s       800 states      5 MB
+dense, 3 trains              safe= 0.021s | hazard=unsat     0.026s       809 states      5 MB
+dense, 4 trains              safe=  0.02s | hazard=unsat     0.026s       721 states      5 MB
+3 speeds, 2 trains           safe= 0.022s | hazard=unsat     8.619s   2282151 states      5 MB
