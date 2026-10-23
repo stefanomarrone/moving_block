@@ -64,5 +64,3 @@ two defects that the verification exposed in the first version of the model (a
 direction test performed on a possibly stale board, and a movement authority
 checked over one march step instead of a whole report period); `rq2.py` re-injects
 both as faults F5 and F3.
-
-`etcs-l3.backup-pre-edcc27/` is the model as it was before those corrections.
